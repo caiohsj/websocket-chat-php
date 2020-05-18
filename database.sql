@@ -1,0 +1,5 @@
+CREATE TABLE chat (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    mensagem VARCHAR(255)
+);

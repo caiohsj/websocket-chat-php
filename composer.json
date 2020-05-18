@@ -1,0 +1,23 @@
+{
+    "name": "caiohjs/websocket-php",
+    "description": "Aplicação Web com Websocket",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Caio Henrique",
+            "email": "caiohenrique.programador@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "cboden/ratchet": "^0.4.1"
+    }
+}

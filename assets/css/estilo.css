@@ -1,0 +1,117 @@
+/*
+* 
+* @author Caio Henrique
+*/
+
+
+html, body, div.container {
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+body {
+    padding: 0px;
+    background: linear-gradient(to right,#55efc4,#00cec9);
+}
+
+div.chat {
+    width: 50%;
+    height: 50%;
+    overflow: scroll;
+    box-sizing: border-box;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+div.form-chat {
+    width: 50%;
+}
+
+#inputNome {
+    width: 20%;
+}
+
+#inputMensagem {
+    width: 78%;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* Breakpoints */
+/* Dispositivos extra small (telefones , com menos de 576px) */
+@media (max-width: 575.98px){
+    div.chat {
+        width: 96%;
+        height: 50%;
+    }
+    div.form-chat {
+        width: 96%;
+    }
+    #inputNome {
+        width: 20%;
+    }
+    
+    #inputMensagem {
+        width: 76%;
+    }
+}
+
+ /* Dispositivos pequenos (telefones, com mais de 576px) */
+@media (min-width: 576px)  and (max-width: 767.98px){
+    div.chat {
+        width: 96%;
+        height: 50%;
+    }
+    div.form-chat {
+        width: 96%;
+    }
+    #inputNome {
+        width: 20%;
+    }
+    
+    #inputMensagem {
+        width: 76%;
+    }
+}
+
+/* Dispositivos médios (tablets, com mais de 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    div.chat {
+        width: 96%;
+        height: 50%;
+    }
+    div.form-chat {
+        width: 96%;
+    }
+    #inputNome {
+        width: 20%;
+    }
+    
+    #inputMensagem {
+        width: 76%;
+    }
+}
+
+/* Dispositivos médios (tablets com mais de 992px) */
+@media (min-width: 992px)  and (max-width: 1199.98px){
+   
+}
+
+/* Dispositivos large (desktops com mais de 1200px) */
+@media (min-width: 1200px) {
+   
+}
